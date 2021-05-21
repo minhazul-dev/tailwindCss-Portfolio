@@ -7,7 +7,7 @@ import { faFacebook, faGithub,  faTwitter} from '@fortawesome/free-brands-svg-ic
 
 const navigation = [
     { name: 'Home', href: '/', current: true },
-    { name: 'Contact Me', href: '#', current: true },
+    { name: 'Contact Me', href: '/contact', current: true },
     { name: 'About Me', href: '/about', current: true },
     { name: 'Skills', href: '/skills', current: true },
   //   { name: 'Home', href: '#', current: false },

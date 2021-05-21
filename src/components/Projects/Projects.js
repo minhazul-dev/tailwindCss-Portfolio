@@ -4,6 +4,7 @@ import unique from "../../images/unique.png"
 import expGrocery from "../../images/exp grocery.png"
 import movieBank from "../../images/movieBank.png"
 import Navbar from '../Shared/Navbar/Navbar';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 
@@ -47,7 +48,7 @@ const projectData = [
 
 const Projects = () => {
     return (
-
+<ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
         <div className="pt-6 pb-12 bg-gray-300">
             <Navbar />
             <div id="card" className>
@@ -91,7 +92,7 @@ const Projects = () => {
                 }
             </div>
         </div>
-
+        </ScrollAnimation>
 
         //     <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         //     {/*Card 1*/}

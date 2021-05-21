@@ -8,6 +8,9 @@ import r from '../../images/atom.gif'
 // import r from '../../images/S91zd-.gif'
 import Typical from "react-typical";
 import { faFacebookSquare, faGithub,  faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
+// import ScrollAnimation from 'react-animate-on-scroll';
+import Slide from 'react-reveal/Zoom';
+
 
 const navigation = [
   { name: 'Projects', href: '/projects' },
@@ -20,10 +23,14 @@ const navigation = [
 
 const Header = () => {
 
-    
+
     return (
+      <Slide left> 
+        <div  className="relative bg-white overflow-hidden ">
         
-        <div className="relative bg-white overflow-hidden ">
+        
+
+        
         <div className="max-w-7xl mx-auto ">
           <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 ">
             <svg
@@ -199,6 +206,7 @@ const Header = () => {
         </div>
         {/* <ParticlesBg type="circle" bg={true} /> */}
       </div>
+      </Slide>
     );
 };
 
