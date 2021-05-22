@@ -3,7 +3,7 @@ import Navbar from '../Shared/Navbar/Navbar';
 import reactIntro from '../../images/Blogs Imgs/react intro.png'
 import dtypes from '../../images/Blogs Imgs/d types.png'
 import fundamen from '../../images/Blogs Imgs/fundamen.png'
-
+import Fade from 'react-reveal/Fade';
 const blogData= [
     { name: 'A Simple Introduction To React',
      desc:'React is a declarative, efficient, and flexible JavaScript library it is used to build user interfaces....',
@@ -21,6 +21,7 @@ const blogData= [
 
 const AllBlogs = () => {
     return (
+        <Fade bottom> 
         <section className="text-gray-900 body-font">
             <Navbar/>
             <p class="text-purple-600 text-center mt-5 underline "> Blogs</p>
@@ -50,6 +51,7 @@ const AllBlogs = () => {
           </div>
         </div>
       </section>
+      </Fade>
     );
 };
 

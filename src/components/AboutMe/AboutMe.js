@@ -4,6 +4,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
 import Navbar from '../Shared/Navbar/Navbar';
+import Fade from 'react-reveal/Fade';
 
 const features = [
   {
@@ -34,10 +35,10 @@ const features = [
 
 const AboutMe = () => {
     return (
-<main>
+<section>
     <Navbar/>
-    
-    <div className="py-12 bg-white bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500">
+    <Fade left>
+    <div className="py-12 bg-gray-100 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-base text-2xl text-indigo-900 font-semibold tracking-wide uppercase">WEB DEVELOPER</h2>
@@ -70,8 +71,9 @@ const AboutMe = () => {
         </div>
       </div>
     </div>
+    </Fade>
 
-        <div className="container bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 ">
+        <div className="container bg-blue-100">
             <p class="text-center font-serif  antialiased sm:subpixel-antialiased md:antialiased ... pt-5 text-5xl">
   EDUCATION
 </p>
@@ -177,7 +179,7 @@ const AboutMe = () => {
   /> */}
 </VerticalTimeline>
         </div>
-        </main>
+        </section>
     );
 };
 
