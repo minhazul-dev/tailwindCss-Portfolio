@@ -4,6 +4,7 @@ import unique from "../../images/unique.png"
 import expGrocery from "../../images/exp grocery.png"
 import movieBank from "../../images/movieBank.png"
 import Navbar from '../Shared/Navbar/Navbar';
+import premiere from '../../images/premier.png';
 // import ScrollAnimation from 'react-animate-on-scroll';
 import Fade from 'react-reveal/Fade';
 
@@ -40,7 +41,7 @@ const projectData = [
         name: 'Premiere league team details ',
         description: 'This is a full responsive dynamic website. It consists of a home page of team logos, names with an "Explore" button which redirects to a different page to show specific details of the selected team',
         technologies: 'React, Bootstrap, React router. Icons: Fontawesome',
-        img: unique,
+        img: premiere,
         website: 'https://premiere-league-teams.netlify.app/',
         github: 'https://github.com/minhazul-dev/premire-league-details'
     },
