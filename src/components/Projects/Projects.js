@@ -5,6 +5,7 @@ import expGrocery from "../../images/exp grocery.png"
 import movieBank from "../../images/movieBank.png"
 import Navbar from '../Shared/Navbar/Navbar';
 import premiere from '../../images/premier.png';
+import agro from '../../images/agro.PNG';
 // import ScrollAnimation from 'react-animate-on-scroll';
 import Fade from 'react-reveal/Fade';
 
@@ -13,6 +14,14 @@ import Fade from 'react-reveal/Fade';
 
 //fake data
 const projectData = [
+    {
+        name: 'Agro Hut ',
+        description: '"Agro Hut" is a ecommerce website. In this project Some functionality is protected for admins. Different dashboard for users and admin',
+        technologies: 'React Js, React Router, Node.js, MongoDB, Firebase Authentication, Bootstrap',
+        img: agro,
+        website: 'https://agro-hut.web.app/',
+        github: 'https://github.com/minhazul-dev/agro-hut'
+    },
     {
         name: 'Unique Templates ',
         description: '"UNIQUE TEMPLATE" is an online template buying site for your website or product. For all this you must have to log in with google to enjoy all this facilities. In this project Some functionality is protected for admins. Different dashboard for users and admin',
